@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+main()
+{
+    int c;
+    // c = getchar();
+
+    // while(c!=EOF)
+    // {
+    //     putchar(c);
+    //     c = getchar();
+    // }
+
+    // while((c = getchar()) != EOF)
+    // {
+    //     putchar(c);
+    // }
+
+    c = getchar();
+
+    while(c != EOF)
+    {
+        printf("%c\n", c);
+        putchar(c);
+        c = getchar();
+    }
+}
